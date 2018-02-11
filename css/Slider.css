@@ -1,0 +1,14 @@
+
+
+#log {
+	width: 900px;
+	height: auto;
+	padding-left: 50px;
+	font-family: arial;
+	font-size: 14px;
+}
+#espacio{
+	width: 30px;
+	height: 400px;
+	float: left;
+}

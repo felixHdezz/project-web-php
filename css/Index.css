@@ -1,0 +1,18 @@
+section{
+	text-align: center;
+	font-size: 16px;
+}
+#enter{
+	padding: 10px;
+	padding: 5px 60px 10px 60px;
+	cursor: pointer;
+	font-family: Verdana, Arial, san-serif;
+	margin: auto;
+	color: black;
+}
+#intro{
+	width: 820px;
+	height: 430px;
+	position: center;
+	margin: auto;
+}

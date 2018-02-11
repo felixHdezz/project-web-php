@@ -1,0 +1,468 @@
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+/*Estilo para el cuerpo de la pagina(body)*/
+body
+{
+	background: url("../img/Slider/4.jpg");
+	font-family: Verdana, Arial, san-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-size: 16px;
+}
+.cont{
+	width: 970px;
+	margin: auto;
+	height: auto;
+}
+/* Aqui termina el estilo del cuerpo de la pagina*/
+
+/*Este css es para el contenedor de la pagina(contened)*/
+#contened
+{
+	margin: auto;
+	width:1000px;
+    background: rgba(255,255,255,0.7);
+    box-shadow: rgba(0,0,0,0.6)0px 10px 10px;
+    opacity: 1px;
+    height: auto;
+    font-size: 16px;
+}
+/*Aqui termina el css del contenedor de la pagina*/
+
+#title
+{
+	height: 220px;
+	width: 1000px;
+	background: url("../img/degradado.jpg");
+}
+/*Este css es para el menu de navegacion de la pagina */
+nav
+{
+	width: 983px;
+	font-size: 16px;
+	font-family: Verdana, Arial, san-serif;
+	background:url("../img/Nav.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 31px;
+	float: left;
+	text-align: left;
+	margin:auto;
+	padding-top: 16px;
+	padding-left: 17px;
+    cursor: pointer;
+}
+.nav li
+{
+	list-style: none;	
+	position: relative;
+	list-style: none;
+	margin: 0px;
+	padding:0;
+}
+.nav >li 
+{
+	float: left;
+}
+.nav li a 
+{
+	height: 20px;
+	width: auto;
+	color:black;
+    display: block;
+    text-decoration: none; 
+}
+a.main {
+	color: #444; 
+	text-decoration: none;
+	font-size: 15px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.nav li a:hover
+{
+	/*background: #ccc;*/
+	text-decoration: none; 
+	color: #008fbe;
+}
+.nav li ul
+{
+	display: none;
+	position:absolute;
+	min-width:140px;
+}
+.nav li:hover > ul
+{
+	background: #ccc;
+	display: block;
+}
+/*Aqui termina el estilo del menu de navegacion*/
+
+.btn1{
+	width: 60px;
+	height: 25px;
+}
+
+#Buscar
+{
+	padding: 2px;
+	height: 25px;
+	width: 200px;
+	border-radius: 0.6em;
+	background: black;
+	float: right;
+	padding-right: 30px;
+}
+#Contenido{
+	position: left;
+	text-align: right;
+	padding: 2px;
+	font-size: 11px;
+}
+#Contenido input{
+	font-size: 12px;
+	font-family: arial;
+}
+section article 
+{
+	float: left;
+	padding: 5px 40px 10px 40px;
+}
+#formulario{
+	text-align: center;
+	position: center;
+}
+footer
+{ 
+	font-family: arial;
+	padding: 20px;
+	text-align: center;
+	height: 50px;
+	background: #212120;
+	border-top: 1px solid #212120;
+}
+/*Aqui termina el estilo para el pie de pagina*/
+
+#div_bloque{
+    width:100%;
+    height:100%;
+    display: none;
+	position:fixed;
+    z-index: 1;
+    background-color:#000;
+    opacity:0.4;
+    filter:alpha(opacity=40); 
+    top:0;
+    left:0;
+}
+#oculto{
+	font-size: 16px;
+	border-radius: 1em;
+	color: #fff;
+	display: none;
+	padding: 10px;
+	padding-top: 0px;
+	background-color: #000000;
+	opacity: 0.8;
+	border: 2px solid #C3D9FF;
+	border-bottom-style: groove;
+	margin-left: 23%;
+	margin-right: 27%;
+	margin-top: 30%;
+	margin-bottom: 20%;
+	position: absolute;
+	width: 400px;
+	box-shadow: 1px 1px 5px black;
+	z-index: 3;
+	left: 130px;
+	top: -75px;
+}
+#MenuCategorias{
+	margin: auto;
+	float: left;
+	width: 200px;
+	padding: 10px;
+    border: 1px solid #E2E2E2;
+	border-radius: 10px;
+	height: auto;
+	-webkit-box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(240, 240, 240, 0.75);
+	box-shadow:         0px 0px 10px rgba(240, 240, 240, 0.75);
+}
+
+#MenuCategorias .contenedCategoria{
+	clear: both;
+	padding-bottom: 10px;
+	
+	margin-bottom: 20px;
+}
+.contenedCategoria h1 {
+	text-align: center;
+	font-size: 16px;
+	/*color: #cbc750;*/
+	color: black;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #cbc750;
+}
+
+.contenedCategoria ul {
+	padding: 0;
+	margin: 0;
+}
+
+.contenedCategoria ul li{
+	padding: 0 0 3px 10px;	
+	list-style: none;
+}
+
+.contenedCategoria ul li a{
+	font-size:16px;
+	text-decoration: none;
+	/*color: #969547;*/
+	color: black;
+}
+
+.contenedCategoria li a:hover, .templatemo_content_left_section li .current{
+	color: #fcf88e;
+}
+.caja{
+	margin: auto;
+	padding: 20px;
+	float: left;
+	width: 200px;
+	height: 290px;
+	border: 1px solid #E2E2E2;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: arial;
+	text-align: center;
+	-webkit-box-shadow: 0px 0px 10px rgba(240, 240, 240, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(240, 240, 240, 0.75);
+	box-shadow:         0px 0px 10px rgba(240, 240, 240, 0.75);
+	-webkit-transition: all 1.5s ease-in-out;
+	-moz-transition: all 1.5s ease-in-out;
+}
+.caja p{
+	font-size: 16px;
+	padding: 10px;
+}
+.caja img{
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 10px rgba(74, 74, 74, 0.75);
+	-moz-box-shadow:    0px 0px 10px rgba(74, 74, 74, 0.75);
+	box-shadow:         0px 0px 10px rgba(74, 74, 74, 0.75);
+	-webkit-transition: all 1.5s ease-in-out;
+	-moz-transition: all 1.5s ease-in-out;
+}
+.caja:hover{
+
+ -webkit-transform: scale(1.2);
+ -moz-transform: scale(1.2);
+}
+.caja img:hover{
+	-webkit-transform: rotate(355deg);
+	-moz-transform: rotate(355deg);
+}
+#blanc{
+	float: left;
+	width: 50px;
+	height: auto;
+}
+#blancn{
+	width: 1000px;
+	height: 15px;
+}
+#CatalogoProduc{
+	padding: 20px;
+	margin: auto;
+	width: 810px;
+	height: auto;
+	margin-top: 20px;
+	position: relative;
+}
+.CatalogProduc{
+	font-size: 20px;
+	font-family: arial;
+	padding: 10px;
+	margin: auto;
+	width: 810px;
+	height: auto;
+	margin-top: 20px;
+}
+#CatalogoProductos{
+	padding: 0px  40px 40px 0px;
+	position: center;
+	margin-right: 10px;
+}
+#CatalogProductos
+{
+	font-family: arial;
+	font-size: 20px;
+	position: center;
+	text-align: center;
+}
+#opc{
+	text-align: center;
+	font-size: 16px;
+}
+#B{
+	float: left;
+	width: 25px;
+	height: 250px;
+}
+#im{
+	padding-left: 20px;
+	margin: auto;
+	float: left;
+	width: 330px;
+	height: 250px;
+	background: url("../img/welcome.jpg");
+	background-repeat: no-repeat;
+}
+#intro{
+	width: 950px;
+	height: 400px;
+	margin: auto;
+}
+#blanco{
+	width: 1000px;
+	height: 30px;
+}
+h1{
+	font-size: 36px;
+	font-family: arial;
+}
+h2{
+	font-size: 16px;
+	color: red;
+	font-family: arial;
+}
+p{
+	font-size: 16px;
+	font-family: arial;
+}
+
+#cliente{
+	margin: auto;
+	width: 1000px;
+	height: 40px;
+	background: rgba(255,255,255, 0.5);
+}
+#img2{
+	padding: 5px;
+	float: left;
+}
+.btn2
+{
+	height: 20px;
+	width: 30px;
+	background-color: #81671D;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 11px;
+	font-family:Verdana, Arial, san-serif;
+	border-radius:5px;
+}
+
+.btn2:hover
+{
+	background-color:#000;
+	color:#FFF
+}
+
+.btn
+{
+ height: 30px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 11px;
+	font-family:Verdana, Arial, san-serif;
+	margin: 10px 0;
+	background-color: rgb(60,43,22);
+	background-size: 100%;
+	border-radius:10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.todoo
+{
+	background-color:#333333;
+}
+
+.btn:hover
+{
+	background-color:#000;
+	color:#FFF
+}
+.txt_text
+{
+	height: 25px;
+	width: 200px;
+	font-size: 12px;
+	font-family:Verdana, Arial, san-serif;
+	text-transform:uppercase;
+}
+
+.txt_num
+{
+	height: 25px;
+	width: 200px;
+	font-family:Verdana, Arial, san-serif;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+.cmb2
+{
+	height: 25px;
+	width: 200px;
+	font-size: 12px;
+	font-family:Verdana, Arial, san-serif;
+}
+
+#sep{
+	width: 30px;
+	float: left;
+	height: 1060px;
+}
+.Content{
+	width: 1050px;
+	margin: auto;
+	
+	height: 1100px;
+}
+.catalogos{
+	width: 1000px;
+	margin: auto;
+	height: auto;
+	padding: 20px;
+}
+.categorias{
+	width: 200px;
+	height: 1060px;
+	float: left;
+	padding: 20px;
+	
+}
+.categorias li{
+	list-style: none;
+	font-family: arial;
+	font-size: 16px;
+}
+.cat{
+	width: 200px;
+	height: 30px;
+	margin: auto;
+	background: url("../img/Slider/azul.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 16px;
+	font-family: Verdana, Arial, san-serif;
+}

@@ -1,0 +1,15 @@
+
+#slider img{
+	display: none;
+	height: 190px;
+	width: 640px;
+}
+#slider img:nth-child(1)
+{
+	display: block;
+}
+#slider{
+	padding: 10px;
+	float: left;
+	height: 200px;
+}
